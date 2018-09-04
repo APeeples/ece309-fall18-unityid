@@ -1,2 +1,5 @@
 # ece309-fall18-anpeeple
-Repository for students to fork and modify.
+
+Austen Peeples
+ECE309
+09/04/2018
