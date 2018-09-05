@@ -9,3 +9,7 @@ ECE309
 * Created Travis-CI account & linked it to my GitHub account
 * Added a NL & CR to line 1 of .travis.yml to commit the file
 * Travis-CI successfully built the .travis.yml on all 4 compilers
+* Add HW2 #2 code to lib
+* Addded HW2 #2 filename to Makefile
+* Messed with formatting and small errors
+* Compiled HW2 #2 on all 4 compilers
