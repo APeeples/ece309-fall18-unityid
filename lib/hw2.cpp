@@ -136,6 +136,9 @@ Item List::remove_front(){
 	tail = NULL;
       return copy;
     }
+    else{
+	return Item("~ERROR~")
+    }
 }
 
 void List::append(Item a)
