@@ -108,7 +108,7 @@ Item List::get(int n){
 }
 
 int List::length(){
-	int counter;
+	int counter = 0;
 	if(empty()) return 0;
 	ListNode *n = head->getNext();
 	if(n == NULL){
