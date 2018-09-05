@@ -137,7 +137,7 @@ Item List::remove_front(){
       return copy;
     }
     else{
-	return Item("~ERROR~")
+	return Item("~ERROR~");
     }
 }
 
