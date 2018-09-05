@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 class Item {
 public:
@@ -172,25 +171,4 @@ bool List::remove(Item &copy)
 bool List::empty()
 {
   return head==NULL;
-}
-
-int main()
-{
-  List l;
-
-  l.push_back("milk");
-  l.push_back("eggs");
-  l.push_back("bread");
-  l.push_back("potato chips");
-  l.push_back("toothpaste");
-  
-  Item print = l.remove_front();
-  printf("Item removed: %s \n", print.str);
-  
-  printf("Length: %d \n",l.length());
-  
-  print = l.get(1);
-  printf("Item # you entered is: %s \n", print.str);  
-
-  return 0;
 }
